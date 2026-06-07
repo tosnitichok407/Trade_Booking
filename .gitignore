@@ -1,0 +1,19 @@
+cat > .gitignore << 'EOF'
+# ไฟล์ secret ห้าม commit เด็ดขาด
+.env
+
+# Virtual environment
+.venv/
+
+# รายงานและกราฟ
+reports/
+logs/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# macOS
+.DS_Store
+EOF
