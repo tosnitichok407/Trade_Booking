@@ -4,3 +4,5 @@ __pycache__/
 logs/
 reports/
 .DS_Store
+
+paper_trading_state.json
