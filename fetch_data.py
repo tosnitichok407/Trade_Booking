@@ -1,14 +1,14 @@
 import pandas as pd
 import yfinance as yf
 import mplfinance as mpf
-# yfinnance เป็นไลบรารีที่ใช้สำหรับดึงข้อมูลหุ้นจาก Yahoo Finance 
+# yfinance เป็นไลบรารีที่ใช้สำหรับดึงข้อมูลหุ้นจาก Yahoo Finance 
 # mplfinance เป็นไลบรารีที่ใช้สำหรับสร้างกราฟแท่งเทียน (candlestick chart) ของหุ้น
 
 # ดึงข้อมูลหุ้น Apple (AAPL) ในช่วง 6 เดือนที่ผ่านมา
 df = yf.download('AAPL', period="6mo")
 
 if isinstance(df.columns, pd.MultiIndex):
-    df.columns = df.columns.get_level_values(0)
+    df.columns = df.columns.get_level_values(0) # อยากได้ทศนิยม 2 ตำแหน่งก็ใช้ round(df["Close"], 2) ได้เลย
 
 # ดูข้อมูลที่ดึงมา
 print(df.head()) # แสดงข้อมูล 5 แถวแรกของ DataFrame

@@ -27,16 +27,34 @@ def compute_rsi(close, period: int = 14) -> pd.Series:
     return 100 - (100 / (1 + rs))
 
 
-def calculate_indicators(ticker: str = "AAPL", period: str = "3mo") -> pd.DataFrame:
-    """ดึงข้อมูลราคาจาก Yahoo Finance แล้วคำนวณ MA และ RSI"""
-    df = yf.download(ticker, period=period, progress=False, auto_adjust=True)
-    if df.empty:
-        raise ValueError(f"ไม่สามารถดึงข้อมูลสำหรับ {ticker} ได้")
+from typing import Sequence, Union
 
-    df = normalize_yfinance_columns(df)
-    df["MA20"] = compute_ma(df["Close"], 20)
-    df["MA50"] = compute_ma(df["Close"], 50)
-    df["RSI"] = compute_rsi(df["Close"], 14)
+def calculate_indicators(
+    data: Union[pd.DataFrame, str] = "AAPL",
+    period: str = "3mo",
+    ma_periods: Sequence[int] = (20, 50),
+    rsi_period: int = 14,
+) -> pd.DataFrame:
+    """ดึงข้อมูลราคาจาก Yahoo Finance แล้วคำนวณ MA และ RSI.
+
+    Args:
+        data: ข้อมูลราคาที่ส่งมาเป็น DataFrame หรือ ticker string.
+        period: เมื่อ data เป็น ticker จะใช้ period นี้ในการดึงข้อมูล.
+        ma_periods: รายการช่วงเวลา MA ที่จะคำนวณ.
+        rsi_period: ช่วงเวลา RSI ที่จะคำนวณ.
+    """
+    if isinstance(data, pd.DataFrame):
+        df = data.copy()
+        df = normalize_yfinance_columns(df)
+    else:
+        df = yf.download(data, period=period, progress=False, auto_adjust=True)
+        if df.empty:
+            raise ValueError(f"ไม่สามารถดึงข้อมูลสำหรับ {data} ได้")
+        df = normalize_yfinance_columns(df)
+
+    for period_value in ma_periods:
+        df[f"MA_{period_value}"] = compute_ma(df["Close"], period_value)
+    df["RSI"] = compute_rsi(df["Close"], rsi_period)
 
     return df
 
@@ -44,5 +62,5 @@ def calculate_indicators(ticker: str = "AAPL", period: str = "3mo") -> pd.DataFr
 if __name__ == "__main__":
     ticker = "AAPL"
     df = calculate_indicators(ticker)
-    print(df[["Close", "MA20", "MA50"]].tail(10))
+    print(df[["Close", "MA_20", "MA_50"]].tail(10))
     print(df["RSI"].tail(5))
