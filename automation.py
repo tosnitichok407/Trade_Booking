@@ -14,6 +14,7 @@ import time
 from datetime import datetime
 from pathlib import Path
 
+import pandas as pd
 import schedule
 
 from alert import load_env_file, send_telegram
@@ -47,10 +48,16 @@ def build_indicator_summary(ticker: str) -> dict[str, object]:
     df = calculate_indicators(ticker=ticker, period="6mo")
     latest = df.iloc[-1]
 
+    if not all(key in latest.index for key in ("Close", "RSI", "MA20", "MA50")):
+        raise ValueError("DataFrame ไม่มีคอลัมน์ MA20/MA50/RSI ที่ต้องการ")
+
     price = float(latest["Close"])
     rsi = float(latest["RSI"])
     ma20 = float(latest["MA20"])
     ma50 = float(latest["MA50"])
+
+    if any(not pd.notna(value) for value in (price, rsi, ma20, ma50)):
+        raise ValueError("ข้อมูลมีค่า NaN/ไม่สมบูรณ์")
 
     signals = []
     if rsi < 30:
