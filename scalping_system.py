@@ -18,18 +18,19 @@ import matplotlib.gridspec as gridspec
 from matplotlib.patches import FancyArrowPatch
 import warnings, sys
 warnings.filterwarnings("ignore")
+from pathlib import Path
 
 # ─────────────────────────────────────────────
 # 0. CONFIG  (แก้ค่าตรงนี้ได้เลย)
 # ─────────────────────────────────────────────
 CONFIG = {
     # ── Risk Management ──
-    "risk_per_trade":   0.01,   # 1% ของพอร์ตต่อ trade
-    "max_daily_loss":   0.02,   # หยุดวันนั้นถ้าขาดทุน 2%
-    "max_trades_day":   5,      # ห้ามเกิน 5 trade/วัน
+    "risk_per_trade":   0.05,   # 5% ของพอร์ตต่อ trade
+    "max_daily_loss":   0.10,   # หยุดวันนั้นถ้าขาดทุน 10%
+    "max_trades_day":   50,      # ห้ามเกิน 50 trade/วัน
 
     # ── Entry/Exit ──
-    "stop_loss_pct":    0.005,  # SL = 0.5% ต่ำกว่า entry
+    "stop_loss_pct":    0.05,  # SL = 5% ต่ำกว่า entry
     "rr_ratio":         2.0,    # Target R:R = 1:2
     "trail_after_1r":   True,   # Trail stop หลังกำไร 1R
 
@@ -48,6 +49,15 @@ CONFIG = {
     "initial_capital":  100_000,  # บาท / หน่วยเงินใดก็ได้
     "commission":       0.0015,   # 0.15% ต่อด้าน (SET broker)
 }
+
+# ─────────────────────────────────────────────
+# REAL DATA CONFIG  (แก้ค่าตรงนี้)
+# ─────────────────────────────────────────────
+TICKER   = "MSFT"      # เปลี่ยนเป็นหุ้นที่ต้องการ เช่น "PTT.BK", "BTC-USD"
+PERIOD   = "1y"       # ช่วงเวลา: 1mo / 3mo / 6mo / 1y
+INTERVAL = "1h"        # timeframe: 1m / 5m / 15m / 1h / 1d
+                       # หมายเหตุ: yfinance รองรับ intraday ย้อนหลังสูงสุด 60 วัน
+                       #           ถ้าใช้ interval="5m" ให้ตั้ง period="1mo" หรือ "60d"
 
 
 # ═════════════════════════════════════════════
@@ -426,7 +436,7 @@ def plot_dashboard(df: pd.DataFrame, result: dict, perf: dict):
     # Panel 1: Price + EMA + Signals
     # ─────────────────────────────────
     ax1 = fig.add_subplot(gs[0, :2])
-    style_ax(ax1, "📈 Price + EMA + Signals")
+    style_ax(ax1, "Price + EMA + Signals")
     x  = range(len(df))
     ax1.plot(x, df["close"], color="#8b949e", lw=0.8, alpha=0.9, label="Close")
     ax1.plot(x, df["ema_fast"], color=blue,  lw=1.2, alpha=0.8, label=f"EMA{CONFIG['ema_fast']}")
@@ -448,7 +458,7 @@ def plot_dashboard(df: pd.DataFrame, result: dict, perf: dict):
     # Panel 2: Equity Curve
     # ─────────────────────────────────
     ax2 = fig.add_subplot(gs[0, 2])
-    style_ax(ax2, "💰 Equity Curve")
+    style_ax(ax2, "Equity Curve")
     eq_vals = eq.values
     colors_eq = [green if eq_vals[i] >= eq_vals[i-1] else red
                  for i in range(1, len(eq_vals))]
@@ -461,7 +471,7 @@ def plot_dashboard(df: pd.DataFrame, result: dict, perf: dict):
     # Panel 3: RSI
     # ─────────────────────────────────
     ax3 = fig.add_subplot(gs[1, :2])
-    style_ax(ax3, "📊 RSI + Divergence")
+    style_ax(ax3, "RSI + Divergence")
     ax3.plot(x, df["rsi"], color=blue, lw=1, label="RSI")
     ax3.axhline(CONFIG["rsi_oversold"],   color=green, lw=0.8, ls="--", alpha=0.7)
     ax3.axhline(CONFIG["rsi_overbought"], color=red,   lw=0.8, ls="--", alpha=0.7)
@@ -487,7 +497,7 @@ def plot_dashboard(df: pd.DataFrame, result: dict, perf: dict):
     # Panel 4: Volume + Wyckoff Phase
     # ─────────────────────────────────
     ax4 = fig.add_subplot(gs[1, 2])
-    style_ax(ax4, "🔊 Volume + Wyckoff")
+    style_ax(ax4, "Volume + Wyckoff")
     vol = df["volume"].values
     vol_colors = [green if df["close"].iloc[i] >= df["close"].iloc[i-1] else red
                   for i in range(len(df))]
@@ -509,7 +519,7 @@ def plot_dashboard(df: pd.DataFrame, result: dict, perf: dict):
     # Panel 5: Drawdown
     # ─────────────────────────────────
     ax5 = fig.add_subplot(gs[2, :2])
-    style_ax(ax5, "📉 Drawdown")
+    style_ax(ax5, "Drawdown")
     roll_max = eq.cummax()
     dd = ((eq - roll_max) / roll_max * 100)
     ax5.fill_between(range(len(dd)), dd.values, 0, color=red, alpha=0.4)
@@ -521,7 +531,7 @@ def plot_dashboard(df: pd.DataFrame, result: dict, perf: dict):
     # Panel 6: PnL Distribution
     # ─────────────────────────────────
     ax6 = fig.add_subplot(gs[2, 2])
-    style_ax(ax6, "📊 PnL Distribution")
+    style_ax(ax6, "PnL Distribution")
     if not trades.empty:
         win_pnl  = trades[trades["pnl"] > 0]["pnl"]
         loss_pnl = trades[trades["pnl"] <= 0]["pnl"]
@@ -574,46 +584,50 @@ def plot_dashboard(df: pd.DataFrame, result: dict, perf: dict):
                          transform=ax7.transAxes,
                          color=color, fontsize=11, fontweight="bold")
 
-    plt.savefig("/mnt/user-data/outputs/scalping_dashboard.png",
-                dpi=150, bbox_inches="tight", facecolor=bg)
+    Path("reports").mkdir(exist_ok=True)
+    plt.savefig("reports/scalping_dashboard.png", dpi=150, bbox_inches="tight")
     plt.close()
     print("✅ บันทึก Dashboard → scalping_dashboard.png")
 
 
 # ═════════════════════════════════════════════
-# 8. DEMO DATA GENERATOR
+# 8. REAL DATA LOADER
 # ═════════════════════════════════════════════
 
-def generate_demo_data(n: int = 500, seed: int = 42) -> pd.DataFrame:
-    """สร้างข้อมูล OHLCV สมจริงสำหรับทดสอบ"""
-    np.random.seed(seed)
-    dates  = pd.date_range("2024-01-01", periods=n, freq="5min")
-    price  = 100.0
-    prices = []
+def load_real_data(ticker: str, period: str, interval: str) -> pd.DataFrame:
+    """
+    ดึงข้อมูลจริงจาก Yahoo Finance ด้วย yfinance
+    หมายเหตุ: intraday (1m/5m/15m) ย้อนหลังได้สูงสุด 60 วัน
+    """
+    try:
+        import yfinance as yf
+    except ImportError:
+        raise ImportError("ติดตั้ง yfinance ก่อน: pip install yfinance")
 
-    # Simulate regime changes
-    regime = np.random.choice(["trend_up", "trend_dn", "sideways"],
-                               size=n, p=[0.35, 0.25, 0.40])
-    for r in regime:
-        if r == "trend_up":
-            price *= np.random.uniform(1.0002, 1.0010)
-        elif r == "trend_dn":
-            price *= np.random.uniform(0.9990, 0.9998)
-        else:
-            price *= np.random.uniform(0.9997, 1.0003)
-        prices.append(price)
+    print(f"📡 ดึงข้อมูล {ticker} | period={period} | interval={interval} ...")
+    raw = yf.download(ticker, period=period, interval=interval,
+                      auto_adjust=True, progress=False)
 
-    closes = np.array(prices)
-    noise  = closes * 0.002
-    opens  = closes - np.random.uniform(-1, 1, n) * noise
-    highs  = np.maximum(closes, opens) + np.abs(np.random.normal(0, noise))
-    lows   = np.minimum(closes, opens) - np.abs(np.random.normal(0, noise))
-    vols   = np.random.lognormal(14, 0.8, n).astype(int)
+    if raw.empty:
+        raise ValueError(f"ไม่พบข้อมูลสำหรับ {ticker} — ตรวจสอบ ticker และ period/interval")
 
-    return pd.DataFrame({
-        "open": opens, "high": highs, "low": lows,
-        "close": closes, "volume": vols
-    }, index=dates)
+    # Flatten MultiIndex columns (yfinance บางเวอร์ชันคืน MultiIndex)
+    if isinstance(raw.columns, pd.MultiIndex):
+        raw.columns = raw.columns.get_level_values(0)
+
+    # เลือกเฉพาะ OHLCV และ rename เป็น lowercase
+    col_map = {}
+    for col in raw.columns:
+        col_lower = col.lower()
+        if col_lower in ("open", "high", "low", "close", "volume"):
+            col_map[col] = col_lower
+
+    df = raw[list(col_map.keys())].rename(columns=col_map).copy()
+    df.dropna(inplace=True)
+
+    print(f"✅ โหลดข้อมูลสำเร็จ: {len(df):,} แท่ง "
+          f"({str(df.index[0])[:16]} → {str(df.index[-1])[:16]})")
+    return df
 
 
 # ═════════════════════════════════════════════
@@ -626,9 +640,8 @@ def main(df: pd.DataFrame = None):
     print("=" * 60)
 
     if df is None:
-        print("\n📦 ใช้ Demo Data (5-min OHLCV, 500 แท่ง)")
-        print("   → เปลี่ยนเป็นข้อมูลจริงได้ที่ฟังก์ชัน main(df=your_df)")
-        df = generate_demo_data()
+        # ── ดึงข้อมูลจริงจาก Yahoo Finance ──
+        df = load_real_data(TICKER, PERIOD, INTERVAL)
 
     print(f"\n🔍 สร้าง Signals...")
     df_sig = generate_signals(df, CONFIG)
@@ -658,7 +671,7 @@ def main(df: pd.DataFrame = None):
 
     # บันทึก Trade Log
     if not result["trades"].empty:
-        log_path = "/mnt/user-data/outputs/trade_log.csv"
+        log_path = "reports/trade_log.csv"
         result["trades"].to_csv(log_path, index=False)
         print(f"✅ บันทึก Trade Log → trade_log.csv")
 
@@ -666,12 +679,11 @@ def main(df: pd.DataFrame = None):
 
 
 # ─────────────────────────────────────────────
-# HOW TO USE WITH REAL DATA:
+# HOW TO USE WITH CUSTOM DATA:
 #
 # import yfinance as yf
 # df = yf.download("PTT.BK", period="3mo", interval="5m")
-# df.columns = ["open","high","low","close","adj_close","volume"]
-# main(df)
+# main(df=df)
 # ─────────────────────────────────────────────
 
 if __name__ == "__main__":
