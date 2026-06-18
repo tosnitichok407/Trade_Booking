@@ -1,0 +1,440 @@
+09:45:41  [33m⚠ ไม่พบ ALPACA_API_KEY ใน .env  →  ใช้ dry-run สำหรับหุ้น
+09:45:43  [33m⚠ ไม่พบ BINANCE_API_KEY ใน .env  →  ใช้ dry-run สำหรับ crypto
+09:45:43    _get_signal error [MSFT]: ติดตั้ง yfinance ก่อน: pip install yfinance
+09:45:43    _get_signal error [AAPL]: ติดตั้ง yfinance ก่อน: pip install yfinance
+09:45:43    _get_signal error [NVDA]: ติดตั้ง yfinance ก่อน: pip install yfinance
+09:45:43  [33m  [CRYPTO] ข้าม — Binance ไม่ได้เชื่อมต่อ
+09:45:53  [33m⚠ ไม่พบ ALPACA_API_KEY ใน .env  →  ใช้ dry-run สำหรับหุ้น
+09:45:53  [33m⚠ ไม่พบ BINANCE_API_KEY ใน .env  →  ใช้ dry-run สำหรับ crypto
+09:45:53    _get_signal error [MSFT]: ติดตั้ง yfinance ก่อน: pip install yfinance
+09:45:53    _get_signal error [AAPL]: ติดตั้ง yfinance ก่อน: pip install yfinance
+09:45:53    _get_signal error [NVDA]: ติดตั้ง yfinance ก่อน: pip install yfinance
+09:45:53  [33m  [CRYPTO] ข้าม — Binance ไม่ได้เชื่อมต่อ
+09:46:53    _get_signal error [MSFT]: ติดตั้ง yfinance ก่อน: pip install yfinance
+09:46:53    _get_signal error [AAPL]: ติดตั้ง yfinance ก่อน: pip install yfinance
+09:46:53    _get_signal error [NVDA]: ติดตั้ง yfinance ก่อน: pip install yfinance
+09:46:53  [33m  [CRYPTO] ข้าม — Binance ไม่ได้เชื่อมต่อ
+09:47:53    _get_signal error [MSFT]: ติดตั้ง yfinance ก่อน: pip install yfinance
+09:47:53    _get_signal error [AAPL]: ติดตั้ง yfinance ก่อน: pip install yfinance
+09:47:53    _get_signal error [NVDA]: ติดตั้ง yfinance ก่อน: pip install yfinance
+09:47:53  [33m  [CRYPTO] ข้าม — Binance ไม่ได้เชื่อมต่อ
+09:48:53    _get_signal error [MSFT]: ติดตั้ง yfinance ก่อน: pip install yfinance
+09:48:53    _get_signal error [AAPL]: ติดตั้ง yfinance ก่อน: pip install yfinance
+09:48:53    _get_signal error [NVDA]: ติดตั้ง yfinance ก่อน: pip install yfinance
+09:48:53  [33m  [CRYPTO] ข้าม — Binance ไม่ได้เชื่อมต่อ
+09:49:53    _get_signal error [MSFT]: ติดตั้ง yfinance ก่อน: pip install yfinance
+09:49:53    _get_signal error [AAPL]: ติดตั้ง yfinance ก่อน: pip install yfinance
+09:49:53    _get_signal error [NVDA]: ติดตั้ง yfinance ก่อน: pip install yfinance
+09:49:53  [33m  [CRYPTO] ข้าม — Binance ไม่ได้เชื่อมต่อ
+09:50:53    _get_signal error [MSFT]: ติดตั้ง yfinance ก่อน: pip install yfinance
+09:50:53    _get_signal error [AAPL]: ติดตั้ง yfinance ก่อน: pip install yfinance
+09:50:53    _get_signal error [NVDA]: ติดตั้ง yfinance ก่อน: pip install yfinance
+09:50:53  [33m  [CRYPTO] ข้าม — Binance ไม่ได้เชื่อมต่อ
+09:52:16  [33m⚠ ไม่พบ ALPACA_API_KEY ใน .env  →  ใช้ dry-run สำหรับหุ้น
+09:52:16  [33m⚠ ไม่พบ BINANCE_API_KEY ใน .env  →  ใช้ dry-run สำหรับ crypto
+09:52:17    _get_signal error [MSFT]: ติดตั้ง yfinance ก่อน: pip install yfinance
+09:52:17    _get_signal error [AAPL]: ติดตั้ง yfinance ก่อน: pip install yfinance
+09:52:17    _get_signal error [NVDA]: ติดตั้ง yfinance ก่อน: pip install yfinance
+09:52:17  [33m  [CRYPTO] ข้าม — Binance ไม่ได้เชื่อมต่อ
+09:53:17    _get_signal error [MSFT]: ติดตั้ง yfinance ก่อน: pip install yfinance
+09:53:17    _get_signal error [AAPL]: ติดตั้ง yfinance ก่อน: pip install yfinance
+09:53:17    _get_signal error [NVDA]: ติดตั้ง yfinance ก่อน: pip install yfinance
+09:53:17  [33m  [CRYPTO] ข้าม — Binance ไม่ได้เชื่อมต่อ
+09:54:17    _get_signal error [MSFT]: ติดตั้ง yfinance ก่อน: pip install yfinance
+09:54:17    _get_signal error [AAPL]: ติดตั้ง yfinance ก่อน: pip install yfinance
+09:54:17    _get_signal error [NVDA]: ติดตั้ง yfinance ก่อน: pip install yfinance
+09:54:17  [33m  [CRYPTO] ข้าม — Binance ไม่ได้เชื่อมต่อ
+09:54:23  [33m⚠ ไม่พบ ALPACA_API_KEY ใน .env  →  ใช้ dry-run สำหรับหุ้น
+09:54:24  [33m⚠ ไม่พบ BINANCE_API_KEY ใน .env  →  ใช้ dry-run สำหรับ crypto
+09:54:24    _get_signal error [MSFT]: ติดตั้ง yfinance ก่อน: pip install yfinance
+09:54:24    _get_signal error [AAPL]: ติดตั้ง yfinance ก่อน: pip install yfinance
+09:54:24    _get_signal error [NVDA]: ติดตั้ง yfinance ก่อน: pip install yfinance
+09:54:24  [33m  [CRYPTO] ข้าม — Binance ไม่ได้เชื่อมต่อ
+09:55:17    _get_signal error [MSFT]: ติดตั้ง yfinance ก่อน: pip install yfinance
+09:55:17    _get_signal error [AAPL]: ติดตั้ง yfinance ก่อน: pip install yfinance
+09:55:17    _get_signal error [NVDA]: ติดตั้ง yfinance ก่อน: pip install yfinance
+09:55:17  [33m  [CRYPTO] ข้าม — Binance ไม่ได้เชื่อมต่อ
+09:55:24    _get_signal error [MSFT]: ติดตั้ง yfinance ก่อน: pip install yfinance
+09:55:24    _get_signal error [AAPL]: ติดตั้ง yfinance ก่อน: pip install yfinance
+09:55:24    _get_signal error [NVDA]: ติดตั้ง yfinance ก่อน: pip install yfinance
+09:55:24  [33m  [CRYPTO] ข้าม — Binance ไม่ได้เชื่อมต่อ
+09:56:17    _get_signal error [MSFT]: ติดตั้ง yfinance ก่อน: pip install yfinance
+09:56:17    _get_signal error [AAPL]: ติดตั้ง yfinance ก่อน: pip install yfinance
+09:56:17    _get_signal error [NVDA]: ติดตั้ง yfinance ก่อน: pip install yfinance
+09:56:17  [33m  [CRYPTO] ข้าม — Binance ไม่ได้เชื่อมต่อ
+09:56:24    _get_signal error [MSFT]: ติดตั้ง yfinance ก่อน: pip install yfinance
+09:56:24    _get_signal error [AAPL]: ติดตั้ง yfinance ก่อน: pip install yfinance
+09:56:24    _get_signal error [NVDA]: ติดตั้ง yfinance ก่อน: pip install yfinance
+09:56:24  [33m  [CRYPTO] ข้าม — Binance ไม่ได้เชื่อมต่อ
+09:57:17    _get_signal error [MSFT]: ติดตั้ง yfinance ก่อน: pip install yfinance
+09:57:17    _get_signal error [AAPL]: ติดตั้ง yfinance ก่อน: pip install yfinance
+09:57:17    _get_signal error [NVDA]: ติดตั้ง yfinance ก่อน: pip install yfinance
+09:57:17  [33m  [CRYPTO] ข้าม — Binance ไม่ได้เชื่อมต่อ
+09:57:24    _get_signal error [MSFT]: ติดตั้ง yfinance ก่อน: pip install yfinance
+09:57:24    _get_signal error [AAPL]: ติดตั้ง yfinance ก่อน: pip install yfinance
+09:57:24    _get_signal error [NVDA]: ติดตั้ง yfinance ก่อน: pip install yfinance
+09:57:24  [33m  [CRYPTO] ข้าม — Binance ไม่ได้เชื่อมต่อ
+09:58:17    _get_signal error [MSFT]: ติดตั้ง yfinance ก่อน: pip install yfinance
+09:58:17    _get_signal error [AAPL]: ติดตั้ง yfinance ก่อน: pip install yfinance
+09:58:17    _get_signal error [NVDA]: ติดตั้ง yfinance ก่อน: pip install yfinance
+09:58:17  [33m  [CRYPTO] ข้าม — Binance ไม่ได้เชื่อมต่อ
+09:58:24    _get_signal error [MSFT]: ติดตั้ง yfinance ก่อน: pip install yfinance
+09:58:24    _get_signal error [AAPL]: ติดตั้ง yfinance ก่อน: pip install yfinance
+09:58:24    _get_signal error [NVDA]: ติดตั้ง yfinance ก่อน: pip install yfinance
+09:58:24  [33m  [CRYPTO] ข้าม — Binance ไม่ได้เชื่อมต่อ
+09:59:17    _get_signal error [MSFT]: ติดตั้ง yfinance ก่อน: pip install yfinance
+09:59:17    _get_signal error [AAPL]: ติดตั้ง yfinance ก่อน: pip install yfinance
+09:59:17    _get_signal error [NVDA]: ติดตั้ง yfinance ก่อน: pip install yfinance
+09:59:17  [33m  [CRYPTO] ข้าม — Binance ไม่ได้เชื่อมต่อ
+09:59:24    _get_signal error [MSFT]: ติดตั้ง yfinance ก่อน: pip install yfinance
+09:59:24    _get_signal error [AAPL]: ติดตั้ง yfinance ก่อน: pip install yfinance
+09:59:24    _get_signal error [NVDA]: ติดตั้ง yfinance ก่อน: pip install yfinance
+09:59:24  [33m  [CRYPTO] ข้าม — Binance ไม่ได้เชื่อมต่อ
+10:03:59  [33m⚠ ไม่พบ ALPACA_API_KEY ใน .env  →  ใช้ dry-run สำหรับหุ้น
+10:03:59  [33m⚠ ไม่พบ BINANCE_API_KEY ใน .env  →  ใช้ dry-run สำหรับ crypto
+10:04:04    _get_signal error [MSFT]: ติดตั้ง yfinance ก่อน: pip install yfinance
+10:04:04    _get_signal error [AAPL]: ติดตั้ง yfinance ก่อน: pip install yfinance
+10:04:04    _get_signal error [NVDA]: ติดตั้ง yfinance ก่อน: pip install yfinance
+10:04:04  [33m  [CRYPTO] ข้าม — Binance ไม่ได้เชื่อมต่อ
+10:04:11    _get_signal error [MSFT]: ติดตั้ง yfinance ก่อน: pip install yfinance
+10:04:11    _get_signal error [AAPL]: ติดตั้ง yfinance ก่อน: pip install yfinance
+10:04:11    _get_signal error [NVDA]: ติดตั้ง yfinance ก่อน: pip install yfinance
+10:04:11  [33m  [CRYPTO] ข้าม — Binance ไม่ได้เชื่อมต่อ
+10:04:58  [33m⚠ ไม่พบ ALPACA_API_KEY ใน .env  →  ใช้ dry-run สำหรับหุ้น
+10:04:58  [33m⚠ ไม่พบ BINANCE_API_KEY ใน .env  →  ใช้ dry-run สำหรับ crypto
+10:04:59  [33m[HOLD] MSFT        $378.8700    EMA9=384.5707    EMA21=388.247     RSI=25.15  score=1/1
+10:04:59  [33m[HOLD] AAPL        $295.8800    EMA9=296.8966    EMA21=296.6143    RSI=51.08  score=1/0
+10:04:59  [33m[HOLD] NVDA        $204.6780    EMA9=206.5505    EMA21=207.2371    RSI=32.87  score=1/1
+10:04:59  [33m  [CRYPTO] ข้าม — Binance ไม่ได้เชื่อมต่อ
+10:05:11    _get_signal error [MSFT]: ติดตั้ง yfinance ก่อน: pip install yfinance
+10:05:11    _get_signal error [AAPL]: ติดตั้ง yfinance ก่อน: pip install yfinance
+10:05:11    _get_signal error [NVDA]: ติดตั้ง yfinance ก่อน: pip install yfinance
+10:05:11  [33m  [CRYPTO] ข้าม — Binance ไม่ได้เชื่อมต่อ
+10:06:00  [33m[HOLD] MSFT        $378.8700    EMA9=384.5707    EMA21=388.247     RSI=25.15  score=1/1
+10:06:00  [33m[HOLD] AAPL        $295.8800    EMA9=296.8966    EMA21=296.6143    RSI=51.08  score=1/0
+10:06:00  [33m[HOLD] NVDA        $204.6780    EMA9=206.5505    EMA21=207.2371    RSI=32.87  score=1/1
+10:06:00  [33m  [CRYPTO] ข้าม — Binance ไม่ได้เชื่อมต่อ
+10:06:11    _get_signal error [MSFT]: ติดตั้ง yfinance ก่อน: pip install yfinance
+10:06:11    _get_signal error [AAPL]: ติดตั้ง yfinance ก่อน: pip install yfinance
+10:06:11    _get_signal error [NVDA]: ติดตั้ง yfinance ก่อน: pip install yfinance
+10:06:11  [33m  [CRYPTO] ข้าม — Binance ไม่ได้เชื่อมต่อ
+10:07:00  [33m[HOLD] MSFT        $378.8700    EMA9=384.5707    EMA21=388.247     RSI=25.15  score=1/1
+10:07:01  [33m[HOLD] AAPL        $295.8800    EMA9=296.8966    EMA21=296.6143    RSI=51.08  score=1/0
+10:07:01  [33m[HOLD] NVDA        $204.6780    EMA9=206.5505    EMA21=207.2371    RSI=32.87  score=1/1
+10:07:01  [33m  [CRYPTO] ข้าม — Binance ไม่ได้เชื่อมต่อ
+10:07:11    _get_signal error [MSFT]: ติดตั้ง yfinance ก่อน: pip install yfinance
+10:07:11    _get_signal error [AAPL]: ติดตั้ง yfinance ก่อน: pip install yfinance
+10:07:11    _get_signal error [NVDA]: ติดตั้ง yfinance ก่อน: pip install yfinance
+10:07:11  [33m  [CRYPTO] ข้าม — Binance ไม่ได้เชื่อมต่อ
+10:07:48  Alpaca connect error: unauthorized.
+10:07:48  [32m✓ Binance Testnet  USDT=10,000.00
+10:08:01  [33m[HOLD] MSFT        $378.8700    EMA9=384.5707    EMA21=388.247     RSI=25.15  score=1/1
+10:08:01  [33m[HOLD] AAPL        $295.8800    EMA9=296.8966    EMA21=296.6143    RSI=51.08  score=1/0
+10:08:01  [33m[HOLD] NVDA        $204.6780    EMA9=206.5505    EMA21=207.2371    RSI=32.87  score=1/1
+10:08:01  [33m  [CRYPTO] ข้าม — Binance ไม่ได้เชื่อมต่อ
+10:08:11    _get_signal error [MSFT]: ติดตั้ง yfinance ก่อน: pip install yfinance
+10:08:11    _get_signal error [AAPL]: ติดตั้ง yfinance ก่อน: pip install yfinance
+10:08:11    _get_signal error [NVDA]: ติดตั้ง yfinance ก่อน: pip install yfinance
+10:08:11  [33m  [CRYPTO] ข้าม — Binance ไม่ได้เชื่อมต่อ
+10:09:02  [33m[HOLD] MSFT        $378.8700    EMA9=384.5707    EMA21=388.247     RSI=25.15  score=1/1
+10:09:02  [33m[HOLD] AAPL        $295.8800    EMA9=296.8966    EMA21=296.6143    RSI=51.08  score=1/0
+10:09:02  [33m[HOLD] NVDA        $204.6780    EMA9=206.5505    EMA21=207.2371    RSI=32.87  score=1/1
+10:09:02  [33m  [CRYPTO] ข้าม — Binance ไม่ได้เชื่อมต่อ
+10:09:11    _get_signal error [MSFT]: ติดตั้ง yfinance ก่อน: pip install yfinance
+10:09:11    _get_signal error [AAPL]: ติดตั้ง yfinance ก่อน: pip install yfinance
+10:09:11    _get_signal error [NVDA]: ติดตั้ง yfinance ก่อน: pip install yfinance
+10:09:11  [33m  [CRYPTO] ข้าม — Binance ไม่ได้เชื่อมต่อ
+10:10:02  [33m[HOLD] MSFT        $378.8700    EMA9=384.5707    EMA21=388.247     RSI=25.15  score=1/1
+10:10:03  [33m[HOLD] AAPL        $295.8800    EMA9=296.8966    EMA21=296.6143    RSI=51.08  score=1/0
+10:10:03  [33m[HOLD] NVDA        $204.6780    EMA9=206.5505    EMA21=207.2371    RSI=32.87  score=1/1
+10:10:03  [33m  [CRYPTO] ข้าม — Binance ไม่ได้เชื่อมต่อ
+10:10:12    _get_signal error [MSFT]: ติดตั้ง yfinance ก่อน: pip install yfinance
+10:10:12    _get_signal error [AAPL]: ติดตั้ง yfinance ก่อน: pip install yfinance
+10:10:12    _get_signal error [NVDA]: ติดตั้ง yfinance ก่อน: pip install yfinance
+10:10:12  [33m  [CRYPTO] ข้าม — Binance ไม่ได้เชื่อมต่อ
+10:18:46  [33m[HOLD] MSFT        $378.8700    EMA9=384.5707    EMA21=388.247     RSI=25.15  score=1/1
+10:18:46  [33m[HOLD] AAPL        $295.8800    EMA9=296.8966    EMA21=296.6143    RSI=51.08  score=1/0
+10:18:47  [33m[HOLD] NVDA        $204.6780    EMA9=206.5505    EMA21=207.2371    RSI=32.87  score=1/1
+10:18:47  [33m  [CRYPTO] ข้าม — Binance ไม่ได้เชื่อมต่อ
+10:18:54    _get_signal error [MSFT]: ติดตั้ง yfinance ก่อน: pip install yfinance
+10:18:54    _get_signal error [AAPL]: ติดตั้ง yfinance ก่อน: pip install yfinance
+10:18:54    _get_signal error [NVDA]: ติดตั้ง yfinance ก่อน: pip install yfinance
+10:18:54  [33m  [CRYPTO] ข้าม — Binance ไม่ได้เชื่อมต่อ
+10:19:10  Alpaca connect error: unauthorized.
+10:19:10  [32m✓ Binance Testnet  USDT=10,000.00
+10:19:11  [33m[HOLD] MSFT        $378.8700    EMA9=384.5707    EMA21=388.247     RSI=25.15  score=1/1
+10:19:11  [33m[HOLD] AAPL        $295.8800    EMA9=296.8966    EMA21=296.6143    RSI=51.08  score=1/0
+10:19:11  [33m[HOLD] NVDA        $204.6780    EMA9=206.5505    EMA21=207.2371    RSI=32.87  score=1/1
+10:19:12  [33m[HOLD] BTCUSDT     $64513.5100  EMA9=64643.5641  EMA21=64933.6625  RSI=40.62  score=0/1
+10:19:12  [33m[HOLD] ETHUSDT     $1752.0400   EMA9=1753.5913   EMA21=1760.9246   RSI=44.07  score=0/1
+10:19:54    _get_signal error [MSFT]: ติดตั้ง yfinance ก่อน: pip install yfinance
+10:19:54    _get_signal error [AAPL]: ติดตั้ง yfinance ก่อน: pip install yfinance
+10:19:54    _get_signal error [NVDA]: ติดตั้ง yfinance ก่อน: pip install yfinance
+10:19:54  [33m  [CRYPTO] ข้าม — Binance ไม่ได้เชื่อมต่อ
+10:20:12  [33m[HOLD] MSFT        $378.8700    EMA9=384.5707    EMA21=388.247     RSI=25.15  score=1/1
+10:20:12  [33m[HOLD] AAPL        $295.8800    EMA9=296.8966    EMA21=296.6143    RSI=51.08  score=1/0
+10:20:13  [33m[HOLD] NVDA        $204.6780    EMA9=206.5505    EMA21=207.2371    RSI=32.87  score=1/1
+10:20:13  [33m[HOLD] BTCUSDT     $64503.0300  EMA9=64641.4681  EMA21=64932.7098  RSI=40.48  score=0/1
+10:20:13  [33m[HOLD] ETHUSDT     $1751.9100   EMA9=1753.5653   EMA21=1760.9128   RSI=44.01  score=0/1
+10:20:54    _get_signal error [MSFT]: ติดตั้ง yfinance ก่อน: pip install yfinance
+10:20:54    _get_signal error [AAPL]: ติดตั้ง yfinance ก่อน: pip install yfinance
+10:20:54    _get_signal error [NVDA]: ติดตั้ง yfinance ก่อน: pip install yfinance
+10:20:54  [33m  [CRYPTO] ข้าม — Binance ไม่ได้เชื่อมต่อ
+10:21:13  [33m[HOLD] MSFT        $378.8700    EMA9=384.5707    EMA21=388.247     RSI=25.15  score=1/1
+10:21:13  [33m[HOLD] AAPL        $295.8800    EMA9=296.8966    EMA21=296.6143    RSI=51.08  score=1/0
+10:21:14  [33m[HOLD] NVDA        $204.6780    EMA9=206.5505    EMA21=207.2371    RSI=32.87  score=1/1
+10:21:14  [33m[HOLD] BTCUSDT     $64496.2800  EMA9=64640.1181  EMA21=64932.0962  RSI=40.39  score=0/1
+10:21:14  [33m[HOLD] ETHUSDT     $1751.8800   EMA9=1753.5593   EMA21=1760.9101   RSI=44.0   score=0/1
+10:21:54    _get_signal error [MSFT]: ติดตั้ง yfinance ก่อน: pip install yfinance
+10:21:54    _get_signal error [AAPL]: ติดตั้ง yfinance ก่อน: pip install yfinance
+10:21:54    _get_signal error [NVDA]: ติดตั้ง yfinance ก่อน: pip install yfinance
+10:21:54  [33m  [CRYPTO] ข้าม — Binance ไม่ได้เชื่อมต่อ
+10:22:15  [33m[HOLD] MSFT        $378.8700    EMA9=384.5707    EMA21=388.247     RSI=25.15  score=1/1
+10:22:15  [33m[HOLD] AAPL        $295.8800    EMA9=296.8966    EMA21=296.6143    RSI=51.08  score=1/0
+10:22:15  [33m[HOLD] NVDA        $204.6780    EMA9=206.5505    EMA21=207.2371    RSI=32.87  score=1/1
+10:22:15  [33m[HOLD] BTCUSDT     $64480.9600  EMA9=64637.0541  EMA21=64930.7035  RSI=40.19  score=0/1
+10:22:15  [33m[HOLD] ETHUSDT     $1751.9800   EMA9=1753.5793   EMA21=1760.9192   RSI=44.04  score=0/1
+10:22:54    _get_signal error [MSFT]: ติดตั้ง yfinance ก่อน: pip install yfinance
+10:22:54    _get_signal error [AAPL]: ติดตั้ง yfinance ก่อน: pip install yfinance
+10:22:54    _get_signal error [NVDA]: ติดตั้ง yfinance ก่อน: pip install yfinance
+10:22:54  [33m  [CRYPTO] ข้าม — Binance ไม่ได้เชื่อมต่อ
+10:23:16  [33m[HOLD] MSFT        $378.8700    EMA9=384.5707    EMA21=388.247     RSI=25.15  score=1/1
+10:23:16  [33m[HOLD] AAPL        $295.8800    EMA9=296.8966    EMA21=296.6143    RSI=51.08  score=1/0
+10:23:16  [33m[HOLD] NVDA        $204.6780    EMA9=206.5505    EMA21=207.2371    RSI=32.87  score=1/1
+10:23:16  [33m[HOLD] BTCUSDT     $64479.6400  EMA9=64636.7901  EMA21=64930.5835  RSI=40.17  score=0/1
+10:23:17  [33m[HOLD] ETHUSDT     $1749.6000   EMA9=1753.1033   EMA21=1760.7028   RSI=43.09  score=0/1
+10:24:12    _get_signal error [MSFT]: ติดตั้ง yfinance ก่อน: pip install yfinance
+10:24:12    _get_signal error [AAPL]: ติดตั้ง yfinance ก่อน: pip install yfinance
+10:24:12    _get_signal error [NVDA]: ติดตั้ง yfinance ก่อน: pip install yfinance
+10:24:12  [33m  [CRYPTO] ข้าม — Binance ไม่ได้เชื่อมต่อ
+10:24:35  [33m[HOLD] MSFT        $378.8700    EMA9=384.5707    EMA21=388.247     RSI=25.15  score=1/1
+10:24:35  [33m[HOLD] AAPL        $295.8800    EMA9=296.8966    EMA21=296.6143    RSI=51.08  score=1/0
+10:24:35  [33m[HOLD] NVDA        $204.6780    EMA9=206.5505    EMA21=207.2371    RSI=32.87  score=1/1
+10:24:35  [33m[HOLD] BTCUSDT     $64412.0000  EMA9=64623.2621  EMA21=64924.4344  RSI=39.32  score=0/1
+10:24:35  [33m[HOLD] ETHUSDT     $1749.3600   EMA9=1753.0553   EMA21=1760.681    RSI=42.99  score=0/1
+10:25:12    _get_signal error [MSFT]: ติดตั้ง yfinance ก่อน: pip install yfinance
+10:25:12    _get_signal error [AAPL]: ติดตั้ง yfinance ก่อน: pip install yfinance
+10:25:12    _get_signal error [NVDA]: ติดตั้ง yfinance ก่อน: pip install yfinance
+10:25:12  [33m  [CRYPTO] ข้าม — Binance ไม่ได้เชื่อมต่อ
+10:25:36  [33m[HOLD] MSFT        $378.8700    EMA9=384.5707    EMA21=388.247     RSI=25.15  score=1/1
+10:25:36  [33m[HOLD] AAPL        $295.8800    EMA9=296.8966    EMA21=296.6143    RSI=51.08  score=1/0
+10:25:36  [33m[HOLD] NVDA        $204.6780    EMA9=206.5505    EMA21=207.2371    RSI=32.87  score=1/1
+10:25:36  [33m[HOLD] BTCUSDT     $64382.5300  EMA9=64617.3681  EMA21=64921.7553  RSI=38.96  score=1/1 [div↑]
+10:25:37  [33m[HOLD] ETHUSDT     $1748.3100   EMA9=1752.8453   EMA21=1760.5855   RSI=42.58  score=0/1
+10:26:12    _get_signal error [MSFT]: ติดตั้ง yfinance ก่อน: pip install yfinance
+10:26:12    _get_signal error [AAPL]: ติดตั้ง yfinance ก่อน: pip install yfinance
+10:26:12    _get_signal error [NVDA]: ติดตั้ง yfinance ก่อน: pip install yfinance
+10:26:12  [33m  [CRYPTO] ข้าม — Binance ไม่ได้เชื่อมต่อ
+10:26:37  [33m[HOLD] MSFT        $378.8700    EMA9=384.5707    EMA21=388.247     RSI=25.15  score=1/1
+10:26:37  [33m[HOLD] AAPL        $295.8800    EMA9=296.8966    EMA21=296.6143    RSI=51.08  score=1/0
+10:26:37  [33m[HOLD] NVDA        $204.6780    EMA9=206.5505    EMA21=207.2371    RSI=32.87  score=1/1
+10:26:37  [33m[HOLD] BTCUSDT     $64399.9900  EMA9=64620.8601  EMA21=64923.3425  RSI=39.17  score=0/1
+10:26:38  [33m[HOLD] ETHUSDT     $1748.4200   EMA9=1752.8673   EMA21=1760.5955   RSI=42.63  score=0/1
+10:27:12    _get_signal error [MSFT]: ติดตั้ง yfinance ก่อน: pip install yfinance
+10:27:12    _get_signal error [AAPL]: ติดตั้ง yfinance ก่อน: pip install yfinance
+10:27:12    _get_signal error [NVDA]: ติดตั้ง yfinance ก่อน: pip install yfinance
+10:27:12  [33m  [CRYPTO] ข้าม — Binance ไม่ได้เชื่อมต่อ
+10:27:39  [33m[HOLD] MSFT        $378.8700    EMA9=384.5707    EMA21=388.247     RSI=25.15  score=1/1
+10:27:39  [33m[HOLD] AAPL        $295.8800    EMA9=296.8966    EMA21=296.6143    RSI=51.08  score=1/0
+10:27:39  [33m[HOLD] NVDA        $204.6780    EMA9=206.5505    EMA21=207.2371    RSI=32.87  score=1/1
+10:27:40  [33m[HOLD] BTCUSDT     $64358.4800  EMA9=64612.5581  EMA21=64919.5689  RSI=38.67  score=1/1 [div↑]
+10:27:40  [33m[HOLD] ETHUSDT     $1746.7600   EMA9=1752.5353   EMA21=1760.4446   RSI=42.0   score=0/1
+10:28:12    _get_signal error [MSFT]: ติดตั้ง yfinance ก่อน: pip install yfinance
+10:28:12    _get_signal error [AAPL]: ติดตั้ง yfinance ก่อน: pip install yfinance
+10:28:12    _get_signal error [NVDA]: ติดตั้ง yfinance ก่อน: pip install yfinance
+10:28:12  [33m  [CRYPTO] ข้าม — Binance ไม่ได้เชื่อมต่อ
+10:28:40  [33m[HOLD] MSFT        $378.8700    EMA9=384.5707    EMA21=388.247     RSI=25.15  score=1/1
+10:28:40  [33m[HOLD] AAPL        $295.8800    EMA9=296.8966    EMA21=296.6143    RSI=51.08  score=1/0
+10:28:40  [33m[HOLD] NVDA        $204.6780    EMA9=206.5505    EMA21=207.2371    RSI=32.87  score=1/1
+10:28:41  [33m[HOLD] BTCUSDT     $64341.9700  EMA9=64609.2561  EMA21=64918.068   RSI=38.47  score=1/1 [div↑]
+10:28:41  [33m[HOLD] ETHUSDT     $1745.7000   EMA9=1752.3233   EMA21=1760.3482   RSI=41.6   score=0/1
+10:29:12    _get_signal error [MSFT]: ติดตั้ง yfinance ก่อน: pip install yfinance
+10:29:12    _get_signal error [AAPL]: ติดตั้ง yfinance ก่อน: pip install yfinance
+10:29:12    _get_signal error [NVDA]: ติดตั้ง yfinance ก่อน: pip install yfinance
+10:29:12  [33m  [CRYPTO] ข้าม — Binance ไม่ได้เชื่อมต่อ
+10:29:41  [33m[HOLD] MSFT        $378.8700    EMA9=384.5707    EMA21=388.247     RSI=25.15  score=1/1
+10:29:41  [33m[HOLD] AAPL        $295.8800    EMA9=296.8966    EMA21=296.6143    RSI=51.08  score=1/0
+10:29:42  [33m[HOLD] NVDA        $204.6780    EMA9=206.5505    EMA21=207.2371    RSI=32.87  score=1/1
+10:29:42  [33m[HOLD] BTCUSDT     $64318.4600  EMA9=64604.5541  EMA21=64915.9307  RSI=38.19  score=1/1 [div↑]
+10:29:42  [33m[HOLD] ETHUSDT     $1744.9600   EMA9=1752.1753   EMA21=1760.281    RSI=41.33  score=0/1
+10:30:12    _get_signal error [MSFT]: ติดตั้ง yfinance ก่อน: pip install yfinance
+10:30:12    _get_signal error [AAPL]: ติดตั้ง yfinance ก่อน: pip install yfinance
+10:30:12    _get_signal error [NVDA]: ติดตั้ง yfinance ก่อน: pip install yfinance
+10:30:12  [33m  [CRYPTO] ข้าม — Binance ไม่ได้เชื่อมต่อ
+10:30:37  Alpaca connect error: unauthorized.
+10:30:38  [32m✓ Binance Testnet  USDT=10,000.00
+10:30:42  [33m[HOLD] MSFT        $378.8700    EMA9=384.5707    EMA21=388.247     RSI=25.15  score=1/1
+10:30:42  [33m[HOLD] AAPL        $295.8800    EMA9=296.8966    EMA21=296.6143    RSI=51.08  score=1/0
+10:30:43  [33m[HOLD] NVDA        $204.6780    EMA9=206.5505    EMA21=207.2371    RSI=32.87  score=1/1
+10:30:43  [33m[HOLD] BTCUSDT     $64353.9900  EMA9=64611.6601  EMA21=64919.1607  RSI=38.61  score=1/1 [div↑]
+10:30:43  [33m[HOLD] ETHUSDT     $1746.3300   EMA9=1752.4493   EMA21=1760.4055   RSI=41.84  score=0/1
+10:31:12    _get_signal error [MSFT]: ติดตั้ง yfinance ก่อน: pip install yfinance
+10:31:12    _get_signal error [AAPL]: ติดตั้ง yfinance ก่อน: pip install yfinance
+10:31:12    _get_signal error [NVDA]: ติดตั้ง yfinance ก่อน: pip install yfinance
+10:31:12  [33m  [CRYPTO] ข้าม — Binance ไม่ได้เชื่อมต่อ
+10:31:24  Alpaca connect error: unauthorized.
+10:31:24  [32m✓ Binance Testnet  USDT=10,000.00
+10:31:25  [33m[HOLD] MSFT        $378.8700    EMA9=384.5707    EMA21=388.247     RSI=25.15  score=1/1
+10:31:25  [33m[HOLD] AAPL        $295.8800    EMA9=296.8966    EMA21=296.6143    RSI=51.08  score=1/0
+10:31:25  [33m[HOLD] NVDA        $204.6780    EMA9=206.5505    EMA21=207.2371    RSI=32.87  score=1/1
+10:31:25  [33m[HOLD] BTCUSDT     $64396.3800  EMA9=64620.1381  EMA21=64923.0144  RSI=39.13  score=0/1
+10:31:26  [33m[HOLD] ETHUSDT     $1747.4500   EMA9=1752.6733   EMA21=1760.5073   RSI=42.26  score=0/1
+10:31:43  [33m[HOLD] MSFT        $378.8700    EMA9=384.5707    EMA21=388.247     RSI=25.15  score=1/1
+10:31:43  [33m[HOLD] AAPL        $295.8800    EMA9=296.8966    EMA21=296.6143    RSI=51.08  score=1/0
+10:31:44  [33m[HOLD] NVDA        $204.6780    EMA9=206.5505    EMA21=207.2371    RSI=32.87  score=1/1
+10:31:44  [33m[HOLD] BTCUSDT     $64381.0400  EMA9=64617.0701  EMA21=64921.6198  RSI=38.94  score=1/1 [div↑]
+10:31:44  [33m[HOLD] ETHUSDT     $1747.4700   EMA9=1752.6773   EMA21=1760.5092   RSI=42.26  score=0/1
+10:34:15    _get_signal error [MSFT]: ติดตั้ง yfinance ก่อน: pip install yfinance
+10:34:15    _get_signal error [AAPL]: ติดตั้ง yfinance ก่อน: pip install yfinance
+10:34:15    _get_signal error [NVDA]: ติดตั้ง yfinance ก่อน: pip install yfinance
+10:34:15  [33m  [CRYPTO] ข้าม — Binance ไม่ได้เชื่อมต่อ
+10:34:47  [33m[HOLD] MSFT        $378.8700    EMA9=384.5707    EMA21=388.247     RSI=25.15  score=1/1
+10:34:47  [33m[HOLD] AAPL        $295.8800    EMA9=296.8966    EMA21=296.6143    RSI=51.08  score=1/0
+10:34:47  [33m[HOLD] NVDA        $204.6780    EMA9=206.5505    EMA21=207.2371    RSI=32.87  score=1/1
+10:34:47  [33m[HOLD] BTCUSDT     $64352.0100  EMA9=64611.2641  EMA21=64918.9807  RSI=38.59  score=1/1 [div↑]
+10:34:47  [33m[HOLD] ETHUSDT     $1747.2200   EMA9=1752.6273   EMA21=1760.4864   RSI=42.17  score=0/1
+10:35:11  Alpaca connect error: unauthorized.
+10:35:11  [32m✓ Binance Testnet  USDT=10,000.00
+10:35:12  [33m[HOLD] MSFT        $378.8700    EMA9=384.5707    EMA21=388.247     RSI=25.15  score=1/1
+10:35:12  [33m[HOLD] AAPL        $295.8800    EMA9=296.8966    EMA21=296.6143    RSI=51.08  score=1/0
+10:35:13  [33m[HOLD] NVDA        $204.6780    EMA9=206.5505    EMA21=207.2371    RSI=32.87  score=1/1
+10:35:13  [33m[HOLD] BTCUSDT     $64321.9900  EMA9=64605.2601  EMA21=64916.2516  RSI=38.23  score=1/1 [div↑]
+10:35:13  [33m[HOLD] ETHUSDT     $1746.4100   EMA9=1752.4653   EMA21=1760.4128   RSI=41.87  score=0/1
+10:35:15    _get_signal error [MSFT]: ติดตั้ง yfinance ก่อน: pip install yfinance
+10:35:15    _get_signal error [AAPL]: ติดตั้ง yfinance ก่อน: pip install yfinance
+10:35:15    _get_signal error [NVDA]: ติดตั้ง yfinance ก่อน: pip install yfinance
+10:35:15  [33m  [CRYPTO] ข้าม — Binance ไม่ได้เชื่อมต่อ
+10:35:48  [33m[HOLD] MSFT        $378.8700    EMA9=384.5707    EMA21=388.247     RSI=25.15  score=1/1
+10:35:48  [33m[HOLD] AAPL        $295.8800    EMA9=296.8966    EMA21=296.6143    RSI=51.08  score=1/0
+10:35:48  [33m[HOLD] NVDA        $204.6780    EMA9=206.5505    EMA21=207.2371    RSI=32.87  score=1/1
+10:35:48  [33m[HOLD] BTCUSDT     $64345.8100  EMA9=64610.0241  EMA21=64918.4171  RSI=38.52  score=1/1 [div↑]
+10:35:48  [33m[HOLD] ETHUSDT     $1747.5400   EMA9=1752.6913   EMA21=1760.5155   RSI=42.29  score=0/1
+10:36:15    _get_signal error [MSFT]: ติดตั้ง yfinance ก่อน: pip install yfinance
+10:36:15    _get_signal error [AAPL]: ติดตั้ง yfinance ก่อน: pip install yfinance
+10:36:15    _get_signal error [NVDA]: ติดตั้ง yfinance ก่อน: pip install yfinance
+10:36:15  [33m  [CRYPTO] ข้าม — Binance ไม่ได้เชื่อมต่อ
+10:36:49  [33m[HOLD] MSFT        $378.8700    EMA9=384.5707    EMA21=388.247     RSI=25.15  score=1/1
+10:36:49  [33m[HOLD] AAPL        $295.8800    EMA9=296.8966    EMA21=296.6143    RSI=51.08  score=1/0
+10:36:49  [33m[HOLD] NVDA        $204.6780    EMA9=206.5505    EMA21=207.2371    RSI=32.87  score=1/1
+10:36:49  [33m[HOLD] BTCUSDT     $64317.4600  EMA9=64604.3541  EMA21=64915.8398  RSI=38.18  score=1/1 [div↑]
+10:36:50  [33m[HOLD] ETHUSDT     $1745.3800   EMA9=1752.2593   EMA21=1760.3192   RSI=41.49  score=0/1
+10:37:15    _get_signal error [MSFT]: ติดตั้ง yfinance ก่อน: pip install yfinance
+10:37:15    _get_signal error [AAPL]: ติดตั้ง yfinance ก่อน: pip install yfinance
+10:37:15    _get_signal error [NVDA]: ติดตั้ง yfinance ก่อน: pip install yfinance
+10:37:15  [33m  [CRYPTO] ข้าม — Binance ไม่ได้เชื่อมต่อ
+10:37:50  [33m[HOLD] MSFT        $378.8700    EMA9=384.5707    EMA21=388.247     RSI=25.15  score=1/1
+10:37:50  [33m[HOLD] AAPL        $295.8800    EMA9=296.8966    EMA21=296.6143    RSI=51.08  score=1/0
+10:37:50  [33m[HOLD] NVDA        $204.6780    EMA9=206.5505    EMA21=207.2371    RSI=32.87  score=1/1
+10:37:51  [33m[HOLD] BTCUSDT     $64277.9900  EMA9=64596.4601  EMA21=64912.2516  RSI=37.73  score=1/1 [div↑]
+10:37:51  [33m[HOLD] ETHUSDT     $1743.6000   EMA9=1751.9033   EMA21=1760.1573   RSI=40.85  score=0/1
+10:38:15    _get_signal error [MSFT]: ติดตั้ง yfinance ก่อน: pip install yfinance
+10:38:15    _get_signal error [AAPL]: ติดตั้ง yfinance ก่อน: pip install yfinance
+10:38:15    _get_signal error [NVDA]: ติดตั้ง yfinance ก่อน: pip install yfinance
+10:38:15  [33m  [CRYPTO] ข้าม — Binance ไม่ได้เชื่อมต่อ
+10:41:23  $MSFT: possibly delisted; no price data found  (period=5d)
+10:41:23  
+1 Failed download:
+10:41:23  ['MSFT']: possibly delisted; no price data found  (period=5d)
+10:41:23    _get_signal error [MSFT]: ไม่พบข้อมูลสำหรับ MSFT — ตรวจสอบ ticker และ period/interval
+10:41:23  $AAPL: possibly delisted; no price data found  (period=5d)
+10:41:23  
+1 Failed download:
+10:41:23  ['AAPL']: possibly delisted; no price data found  (period=5d)
+10:41:23    _get_signal error [AAPL]: ไม่พบข้อมูลสำหรับ AAPL — ตรวจสอบ ticker และ period/interval
+10:41:23  $NVDA: possibly delisted; no price data found  (period=5d)
+10:41:23  
+1 Failed download:
+10:41:23  ['NVDA']: possibly delisted; no price data found  (period=5d)
+10:41:23    _get_signal error [NVDA]: ไม่พบข้อมูลสำหรับ NVDA — ตรวจสอบ ticker และ period/interval
+10:41:33  Binance get_data error BTCUSDT: HTTPSConnectionPool(host='testnet.binance.vision', port=443): Read timed out. (read timeout=10)
+10:41:33  Binance get_data error ETHUSDT: HTTPSConnectionPool(host='testnet.binance.vision', port=443): Max retries exceeded with url: /api/v3/klines?interval=1h&limit=100&symbol=ETHUSDT (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x114274690>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known'))
+10:41:47    _get_signal error [MSFT]: ติดตั้ง yfinance ก่อน: pip install yfinance
+10:41:47    _get_signal error [AAPL]: ติดตั้ง yfinance ก่อน: pip install yfinance
+10:41:47    _get_signal error [NVDA]: ติดตั้ง yfinance ก่อน: pip install yfinance
+10:41:47  [33m  [CRYPTO] ข้าม — Binance ไม่ได้เชื่อมต่อ
+10:42:33  $MSFT: possibly delisted; no price data found  (period=5d)
+10:42:33  
+1 Failed download:
+10:42:33  ['MSFT']: possibly delisted; no price data found  (period=5d)
+10:42:33    _get_signal error [MSFT]: ไม่พบข้อมูลสำหรับ MSFT — ตรวจสอบ ticker และ period/interval
+10:42:33  $AAPL: possibly delisted; no price data found  (period=5d)
+10:42:33  
+1 Failed download:
+10:42:33  ['AAPL']: possibly delisted; no price data found  (period=5d)
+10:42:33    _get_signal error [AAPL]: ไม่พบข้อมูลสำหรับ AAPL — ตรวจสอบ ticker และ period/interval
+10:42:33  $NVDA: possibly delisted; no price data found  (period=5d)
+10:42:33  
+1 Failed download:
+10:42:33  ['NVDA']: possibly delisted; no price data found  (period=5d)
+10:42:33    _get_signal error [NVDA]: ไม่พบข้อมูลสำหรับ NVDA — ตรวจสอบ ticker และ period/interval
+10:42:33  Binance get_data error BTCUSDT: HTTPSConnectionPool(host='testnet.binance.vision', port=443): Max retries exceeded with url: /api/v3/klines?interval=1h&limit=100&symbol=BTCUSDT (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x11419b390>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known'))
+10:42:33  Binance get_data error ETHUSDT: HTTPSConnectionPool(host='testnet.binance.vision', port=443): Max retries exceeded with url: /api/v3/klines?interval=1h&limit=100&symbol=ETHUSDT (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x11419b390>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known'))
+10:42:47    _get_signal error [MSFT]: ติดตั้ง yfinance ก่อน: pip install yfinance
+10:42:47    _get_signal error [AAPL]: ติดตั้ง yfinance ก่อน: pip install yfinance
+10:42:47    _get_signal error [NVDA]: ติดตั้ง yfinance ก่อน: pip install yfinance
+10:42:47  [33m  [CRYPTO] ข้าม — Binance ไม่ได้เชื่อมต่อ
+10:43:33  $MSFT: possibly delisted; no price data found  (period=5d)
+10:43:33  
+1 Failed download:
+10:43:33  ['MSFT']: possibly delisted; no price data found  (period=5d)
+10:43:33    _get_signal error [MSFT]: ไม่พบข้อมูลสำหรับ MSFT — ตรวจสอบ ticker และ period/interval
+10:43:33  $AAPL: possibly delisted; no price data found  (period=5d)
+10:43:33  
+1 Failed download:
+10:43:33  ['AAPL']: possibly delisted; no price data found  (period=5d)
+10:43:33    _get_signal error [AAPL]: ไม่พบข้อมูลสำหรับ AAPL — ตรวจสอบ ticker และ period/interval
+10:43:33  $NVDA: possibly delisted; no price data found  (period=5d)
+10:43:33  
+1 Failed download:
+10:43:33  ['NVDA']: possibly delisted; no price data found  (period=5d)
+10:43:33    _get_signal error [NVDA]: ไม่พบข้อมูลสำหรับ NVDA — ตรวจสอบ ticker และ period/interval
+10:43:33  Binance get_data error BTCUSDT: HTTPSConnectionPool(host='testnet.binance.vision', port=443): Max retries exceeded with url: /api/v3/klines?interval=1h&limit=100&symbol=BTCUSDT (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x114274690>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known'))
+10:43:33  Binance get_data error ETHUSDT: HTTPSConnectionPool(host='testnet.binance.vision', port=443): Max retries exceeded with url: /api/v3/klines?interval=1h&limit=100&symbol=ETHUSDT (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x114274690>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known'))
+10:43:47    _get_signal error [MSFT]: ติดตั้ง yfinance ก่อน: pip install yfinance
+10:43:47    _get_signal error [AAPL]: ติดตั้ง yfinance ก่อน: pip install yfinance
+10:43:47    _get_signal error [NVDA]: ติดตั้ง yfinance ก่อน: pip install yfinance
+10:43:47  [33m  [CRYPTO] ข้าม — Binance ไม่ได้เชื่อมต่อ
+10:44:33  $MSFT: possibly delisted; no price data found  (period=5d)
+10:44:33  
+1 Failed download:
+10:44:33  ['MSFT']: possibly delisted; no price data found  (period=5d)
+10:44:33    _get_signal error [MSFT]: ไม่พบข้อมูลสำหรับ MSFT — ตรวจสอบ ticker และ period/interval
+10:44:33  $AAPL: possibly delisted; no price data found  (period=5d)
+10:44:33  
+1 Failed download:
+10:44:33  ['AAPL']: possibly delisted; no price data found  (period=5d)
+10:44:33    _get_signal error [AAPL]: ไม่พบข้อมูลสำหรับ AAPL — ตรวจสอบ ticker และ period/interval
+10:44:33  $NVDA: possibly delisted; no price data found  (period=5d)
+10:44:33  
+1 Failed download:
+10:44:33  ['NVDA']: possibly delisted; no price data found  (period=5d)
+10:44:33    _get_signal error [NVDA]: ไม่พบข้อมูลสำหรับ NVDA — ตรวจสอบ ticker และ period/interval
+10:44:33  Binance get_data error BTCUSDT: HTTPSConnectionPool(host='testnet.binance.vision', port=443): Max retries exceeded with url: /api/v3/klines?interval=1h&limit=100&symbol=BTCUSDT (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x114275450>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known'))
+10:44:33  Binance get_data error ETHUSDT: HTTPSConnectionPool(host='testnet.binance.vision', port=443): Max retries exceeded with url: /api/v3/klines?interval=1h&limit=100&symbol=ETHUSDT (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x114275450>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known'))
+10:44:47    _get_signal error [MSFT]: ติดตั้ง yfinance ก่อน: pip install yfinance
+10:44:47    _get_signal error [AAPL]: ติดตั้ง yfinance ก่อน: pip install yfinance
+10:44:47    _get_signal error [NVDA]: ติดตั้ง yfinance ก่อน: pip install yfinance
+10:44:47  [33m  [CRYPTO] ข้าม — Binance ไม่ได้เชื่อมต่อ
+10:45:34  [33m[HOLD] MSFT        $378.8700    EMA9=384.5707    EMA21=388.247     RSI=25.15  score=1/1
+10:45:34  [33m[HOLD] AAPL        $295.8800    EMA9=296.8966    EMA21=296.6143    RSI=51.08  score=1/0
+10:45:35  [33m[HOLD] NVDA        $204.6780    EMA9=206.5505    EMA21=207.2371    RSI=32.87  score=1/1
+10:45:36  [33m[HOLD] BTCUSDT     $64326.1400  EMA9=64606.0901  EMA21=64916.6289  RSI=38.28  score=1/1 [div↑]
+10:45:36  [33m[HOLD] ETHUSDT     $1743.5200   EMA9=1751.8873   EMA21=1760.1501   RSI=40.82  score=0/1
+10:45:47    _get_signal error [MSFT]: ติดตั้ง yfinance ก่อน: pip install yfinance
+10:45:47    _get_signal error [AAPL]: ติดตั้ง yfinance ก่อน: pip install yfinance
+10:45:47    _get_signal error [NVDA]: ติดตั้ง yfinance ก่อน: pip install yfinance
+10:45:47  [33m  [CRYPTO] ข้าม — Binance ไม่ได้เชื่อมต่อ
+10:46:38  Alpaca connect error: unauthorized.
+10:46:38  [32m✓ Binance Testnet  USDT=10,000.00
+10:46:39  [33m[HOLD] MSFT        $378.8700    EMA9=384.5707    EMA21=388.247     RSI=25.15  score=1/1
+10:46:39  [33m[HOLD] AAPL        $295.8800    EMA9=296.8966    EMA21=296.6143    RSI=51.08  score=1/0
+10:46:39  [33m[HOLD] NVDA        $204.6780    EMA9=206.5505    EMA21=207.2371    RSI=32.87  score=1/1
+10:46:39  [33m[HOLD] BTCUSDT     $64339.4300  EMA9=64608.7481  EMA21=64917.8371  RSI=38.44  score=1/1 [div↑]
+10:46:40  [33m[HOLD] ETHUSDT     $1744.2100   EMA9=1752.0253   EMA21=1760.2128   RSI=41.06  score=0/1
+10:47:40  Alpaca connect error: unauthorized.
+10:47:40  [32m✓ Binance Testnet  USDT=10,000.00
+10:47:41  [33m[HOLD] MSFT        $378.8700    EMA9=384.5707    EMA21=388.247     RSI=25.15  score=1/1
+10:47:42  [33m[HOLD] AAPL        $295.8800    EMA9=296.8966    EMA21=296.6143    RSI=51.08  score=1/0
+10:47:42  [33m[HOLD] NVDA        $204.6780    EMA9=206.5505    EMA21=207.2371    RSI=32.87  score=1/1
+10:47:42  [33m[HOLD] BTCUSDT     $64322.7900  EMA9=64605.4201  EMA21=64916.3244  RSI=38.24  score=1/1 [div↑]
+10:47:42  [33m[HOLD] ETHUSDT     $1743.9800   EMA9=1751.9793   EMA21=1760.1919   RSI=40.98  score=0/1

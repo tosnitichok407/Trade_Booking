@@ -11,6 +11,7 @@
 =============================================================
 """
 
+import json
 import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
@@ -401,6 +402,37 @@ def calc_performance(result: dict, cfg: dict = CONFIG) -> dict:
     }
 
 
+def build_dashboard_snapshot(df: pd.DataFrame, result: dict, perf: dict, cfg: dict = CONFIG) -> dict:
+    latest = df.iloc[-1] if not df.empty else None
+    latest_signal = int(latest["signal"]) if latest is not None and pd.notna(latest.get("signal")) else 0
+    signal_label = {1: "BUY", -1: "SELL", 0: "HOLD"}.get(latest_signal, "HOLD")
+
+    return {
+        "ticker": TICKER,
+        "period": PERIOD,
+        "interval": INTERVAL,
+        "last_update": pd.Timestamp.now().strftime("%Y-%m-%d %H:%M:%S"),
+        "latest_close": round(float(latest["close"]), 2) if latest is not None and pd.notna(latest.get("close")) else None,
+        "latest_signal": latest_signal,
+        "signal_label": signal_label,
+        "total_trades": perf.get("total_trades", 0),
+        "win_rate": perf.get("win_rate", 0),
+        "profit_factor": perf.get("profit_factor", 0),
+        "sharpe_ratio": perf.get("sharpe_ratio", 0),
+        "max_drawdown_pct": perf.get("max_drawdown_pct", 0),
+        "net_profit": perf.get("net_profit", 0),
+        "net_profit_pct": perf.get("net_profit_pct", 0),
+        "final_capital": round(float(result.get("final_capital", cfg["initial_capital"])), 2),
+        "signal_count": int((df["signal"] != 0).sum()) if "signal" in df.columns else 0,
+    }
+
+
+def save_dashboard_snapshot(snapshot: dict, path: str | Path):
+    out_path = Path(path)
+    out_path.parent.mkdir(parents=True, exist_ok=True)
+    out_path.write_text(json.dumps(snapshot, ensure_ascii=False, indent=2), encoding="utf-8")
+
+
 # ═════════════════════════════════════════════
 # 7. DASHBOARD PLOTTER
 # ═════════════════════════════════════════════
@@ -668,6 +700,12 @@ def main(df: pd.DataFrame = None):
 
     print(f"\n📈 สร้าง Dashboard...")
     plot_dashboard(df_sig, result, perf)
+
+    snapshot = build_dashboard_snapshot(df_sig, result, perf)
+    save_dashboard_snapshot(snapshot, "reports/scalping_snapshot.json")
+    save_dashboard_snapshot(snapshot, "paper-bot/public/scalping_snapshot.json")
+    print(f"✅ บันทึก Snapshot → reports/scalping_snapshot.json")
+    print(f"✅ อัปเดต Dashboard Data → paper-bot/public/scalping_snapshot.json")
 
     # บันทึก Trade Log
     if not result["trades"].empty:

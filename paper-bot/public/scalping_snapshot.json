@@ -1,0 +1,18 @@
+{
+  "ticker": "AAPL",
+  "period": "1y",
+  "interval": "1h",
+  "last_update": "2026-06-17 23:45:12",
+  "latest_close": 298.39,
+  "latest_signal": 0,
+  "signal_label": "HOLD",
+  "total_trades": 18,
+  "win_rate": 61.1,
+  "profit_factor": 1.63,
+  "sharpe_ratio": 0.35,
+  "max_drawdown_pct": -15.58,
+  "net_profit": 21128.54,
+  "net_profit_pct": 21.13,
+  "final_capital": 121128.54,
+  "signal_count": 200
+}
